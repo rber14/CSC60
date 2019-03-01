@@ -1,0 +1,42 @@
+Script started on Tue 13 Feb 2018 01:48:47 PM PST
+[camposr@athena:21]> car lab3.c
+car: Command not found.
+[camposr@athena:22]> cat lab3.c
+/*-------------*/
+/*RobertoCampos*/
+/*Lab3	       */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+   int age=25;
+   double average = 246.7531986;
+   printf("\nThe dog ran quickly.\n\n");
+   printf("Joe is %d years old.\n\n", age);
+   printf("Failure is the opportunity to begin again more intelligently.\n -Henry Ford\n\n");
+   printf("The average = %.1f\n\n", average);
+   printf("The average = %6.3f\n\n", average);
+   printf("The average = %.2e\n\n", average);  
+}
+[camposr@athena:23]> gcc lab3.c
+[camposr@athena:24]> a.out
+
+The dog ran quickly.
+
+Joe is 25 years old.
+
+Failure is the opportunity to begin again more intelligently.
+ -Henry Ford
+
+The average = 246.8
+
+The average = 246.753
+
+The average = 2.47e+02
+
+[camposr@athena:25]> exit
+exit
+
+Script done on Tue 13 Feb 2018 01:49:25 PM PST

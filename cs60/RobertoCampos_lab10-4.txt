@@ -1,0 +1,39 @@
+Script started on Tue 22 May 2018 09:01:12 PM PDT
+[camposr@athena:21]> gcc lab10.c
+[camposr@athena:22]> ls>lsout
+lsout: File exists.
+[camposr@athena:23]> child[K[K[K[K[Kcat lsout
+a.out*
+execvp.c
+lab10.c
+lsout
+redir.c
+RobertoCampos_lab10.txt
+waitpid.c
+[camposr@athena:24]> ls>lsout>file1
+Ambiguous output redirect.
+[camposr@athena:25]> cat foo.txt
+cat: foo.txt: No such file or directory
+[camposr@athena:26]> >lsout
+Invalid null command.
+[camposr@athena:27]> <lsout
+Invalid null command.
+[camposr@athena:28]> wc<ls[Ksout
+ 7  7 72
+[camposr@athena:29]> wc<lsout>wcout
+wcout: File exists.
+[camposr@athena:30]> cat wcout
+ 7  7 72
+[camposr@athena:31]> wc<lsout<wcout
+Ambiguous input redirect.
+[camposr@athena:32]> cd ../lab1
+../lab1: Permission denied.
+[camposr@athena:33]> gcc lab1.c
+gcc: lab1.c: No such file or directory
+gcc: no input files
+[camposr@athena:34]> a.out
+csc60mshell> exit
+[camposr@athena:35]> exit
+exit
+
+Script done on Tue 22 May 2018 09:03:41 PM PDT
